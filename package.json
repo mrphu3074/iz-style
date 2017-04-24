@@ -1,0 +1,42 @@
+{
+  "name": "iz-style",
+  "version": "0.0.3",
+  "description": "React Native theme builder quickly, flexible and scalable",
+  "main": "./lib/index.js",
+  "typings": "./index.d.ts",
+  "scripts": {
+    "clean": "rm -rf ./lib",
+    "compile": "tsc",
+    "prepublish": "npm run clean && npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrphu3074/iz-style.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "theme",
+    "iz-style",
+    "react-native",
+    "theme"
+  ],
+  "author": "mrphu3074@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mrphu3074/iz-style/issues"
+  },
+  "homepage": "https://github.com/mrphu3074/iz-style#readme",
+  "dependencies": {
+    "@shoutem/theme": "^0.9.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.63",
+    "@types/react": "^15.0.22",
+    "@types/react-native": "^0.43.6",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.43.3",
+    "typescript": "^2.2.2"
+  }
+}
